@@ -1,0 +1,218 @@
+.body{
+    margin: 0;
+    padding: 0;
+}
+
+#pala{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background: black;
+}
+
+li{
+    float: right;
+}
+
+li a{
+    text-decoration: none;
+    display: inline-block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 15px 30px;
+    opacity: 85%;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#home{
+    float: left;
+}
+
+li a:hover{
+    background-color: grey;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.background{
+    height: 100vh;
+    background-image: url(../img/hacker.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.face-photo-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#tulisan{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 35px;
+    color: whitesmoke;
+    opacity: 75%;
+}
+
+.face-photo{
+    text-align: center;
+}
+
+#nama{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 35px;
+    color: rgb(14, 219, 209);
+    opacity: 75%;
+}
+
+.judul-me{
+    text-align: center;
+}
+
+#judul-aboutme{
+    text-align: center;
+    text-shadow: 1px 1px grey;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+#foto-id{
+    text-align: right;
+    border-right: 2px solid black;
+}
+
+#foto{
+    height: 250px;
+    width: 200px;
+    border: 3px solid black;
+}
+
+#foto-aboutme{
+    padding: 50px 25px;
+}
+
+#name{
+    padding: 15px 30px;
+    text-align: left;
+    border-bottom: 3px dashed black;
+}
+
+#judul-nama{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+}
+
+#isi-nama{
+    color: #787e87;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#DOB{
+    border-bottom: 3px  dashed black;
+    text-align: left;
+    padding: 15px 30px;
+}
+
+#judul-DOB{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+}
+
+#isi-DOB{
+    color: #787e87;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#address{
+    border-bottom: 3px  dashed black;
+    text-align: left;
+    padding: 15px 30px;
+}
+
+#judul-address{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+}
+
+#isi-address{
+    color: #787e87;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.kotak-aboutme{
+    padding: 10px 0px;
+}
+
+#judul-education{
+    text-shadow: 1px 1px grey;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.judull{
+    padding-left: 25px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-shadow: 1px 1px grey;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.tahun-education{
+    padding-left: 25px;
+    padding-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.isi-education{
+    padding-left: 25px;
+    padding-bottom: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #787e87;
+    border-bottom: 3px double black;
+}
+
+#kotak-contact{
+    text-align: center;
+}
+
+#judul-contact{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-shadow: 1px 1px grey;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+#isi-contact{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #787e87;
+}
+
+#topimg{
+    height: 300px;
+    width: 250px;
+}
